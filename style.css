@@ -6,6 +6,9 @@
     align-items: center;
    margin-right: 10px
 }
+.home{
+    font-weight: 600;
+}
 .navbar2{
      display: flex;
      gap: 20px;
@@ -24,12 +27,41 @@
 
     
 }
+.header1{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+    
+.header1 > div > img {
+    max-width: 100%;
+    height: auto;  
+    display: block;  
+    margin: 0 auto;
+   
+    padding-right: 0; 
+}
+
+.fresh-flowers{
+    color: rgba(233, 90, 8, 1.00)
+}
 
 
 
 @media screen and  (max-width: 576px){
     .navbar-li{
         display: none;
+    }
+    .header1{
+        display: block;
+        text-wrap: wrap;
+    }
+    .header1>div>img{
+      
+        height: 200px;
+        width: 200px;
+     
     }
 }
     
