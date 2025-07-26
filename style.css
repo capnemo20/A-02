@@ -1,2 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+.navbar{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+   margin-right: 10px
+}
+.navbar2{
+     display: flex;
+     gap: 20px;
+     justify-content: space-between;
+     align-items: center;
+}
+.navbar-li{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.cart1{
+    display: flex;
+    
+
+    
+}
+
+
+
+@media screen and  (max-width: 576px){
+    .navbar-li{
+        display: none;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
