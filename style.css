@@ -47,6 +47,32 @@
     color: rgba(233, 90, 8, 1.00)
 }
 
+.our{
+    color:  rgba(233, 90, 8, 1.00)
+}
+.our-plants{
+    display: flex;
+    flex-direction: column;
+    
+}
+.flower-card-btn{
+    color: white;
+    background-color:  rgba(233, 90, 8, 1.00);
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.flower-card>img{
+    height: 150px;
+}
+.flower-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 @media screen and  (max-width: 576px){
@@ -63,6 +89,10 @@
         height: 200px;
         width: 200px;
      
+    }
+    .flower-cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
 }
     
