@@ -103,6 +103,61 @@
     top: -440px;
     right: -50px;
 }
+
+.latest-deals-section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.latest{
+    color: rgba(233, 90, 8, 1.00)
+}
+.deals-flowers{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ana-bloom{
+    display: flex;
+    flex-direction: column;
+}
+.latest-deals-text{
+    margin-left: 400px;
+}
+.deals-img{
+    height: 300px;
+    width: 500px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.deals-img3{
+    height: 600px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.deal1{
+    position: relative;
+}
+.deal-1-offer{
+    top: -200px;
+    padding-left: 50px;
+}
+
+.deal2{
+    position: relative;
+}
+.deal-2-offer{
+    top: -200px;
+    padding-left: 50px;
+}
+.deal3{
+    position: relative;
+}
+.deal-3-offer{
+    top: -400px;
+    padding-left: 50px;
+}
 .join-section{
     gap: 0;
 }.join-section>img{
@@ -233,7 +288,26 @@ footer{
     display: flex;
     flex-direction: column;
 }
-
+.latest-deals-section{
+    display: flex;
+    flex-direction: column;
+}
+.deals-flowers{
+    display: flex;
+    flex-direction: column;
+}
+.ana-bloom{
+    display: flex;
+    flex-direction: column;
+}
+.deals-img{
+    height: 200px;
+    width: 200px;
+}
+.deals-img3{
+    height: 400px;
+    width: 250px;
+}
 }
     
 
