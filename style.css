@@ -72,6 +72,18 @@
     justify-content: center;
     align-items: center;
 }
+.flower-lover{
+    display: flex;
+    justify-content:space-between;
+     
+}
+.flower-lover>div>img{
+    height: 300px;
+   
+}
+.flower-lover-text{
+    margin-left: 200px;
+}
 
 
 
@@ -93,6 +105,12 @@
     .flower-cards{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+    }
+    .flower-lover{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:start;
     }
 }
     
