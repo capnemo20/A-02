@@ -54,7 +54,8 @@
         display: none;
     }
     .header1{
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
         text-wrap: wrap;
     }
     .header1>div>img{
