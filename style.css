@@ -75,6 +75,7 @@
 .flower-lover{
     display: flex;
     justify-content:space-between;
+    margin-top: 200px;
      
 }
 .flower-lover>div>img{
@@ -83,6 +84,15 @@
 }
 .flower-lover-text{
     margin-left: 200px;
+    
+}
+.flower{
+    position: relative;
+}
+
+.trusted-badge{
+    top: -440px;
+    right: -50px;
 }
 
 
@@ -111,6 +121,9 @@
         flex-direction: column;
         justify-content: center;
         align-items:start;
+    }
+    .trusted-badge{
+        display: none;
     }
 }
     
